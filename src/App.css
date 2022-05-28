@@ -1,0 +1,25 @@
+/* .nav-item{
+  padding: .25rem .25rem;
+}
+.nav-item a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(153, 149, 149);
+  font-size: 1.075rem;
+  transition: .25s;
+}
+
+.nav-item a:hover{
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.nav-item a.router-link-exact-active {
+  color: rgb(65, 184, 131);
+}
+
+#nav-ico {
+  color: rgb(65, 184, 131);
+  margin-right: 1rem
+} */
+

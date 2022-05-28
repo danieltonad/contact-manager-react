@@ -1,0 +1,80 @@
+/* navbar styles */
+.nav-item{
+  padding: .25rem .25rem;
+}
+.nav-item a {
+  text-decoration: none;
+  list-style: none;
+  color: rgb(153, 149, 149);
+  font-size: 1.075rem;
+  transition: .25s;
+}
+
+.nav-item a:hover{
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
+.nav-item a.router-link-exact-active {
+  color: rgb(65, 184, 131);
+}
+
+#nav-ico {
+  color: rgb(65, 184, 131);
+  margin-right: 1rem
+} 
+
+
+/* Info styles */
+#info{
+      background: rgb(233, 236, 239);
+      border-radius: 6px;
+    }
+    li{
+        display: block;
+    }
+
+
+    /* contact list style */
+    .each-contact{
+        border: 1px solid rgb(200, 201, 202);
+        border-radius: 2px;
+    }
+
+    #toggle-ico {
+        cursor: pointer;
+        margin: .5px 5px;
+        color: rgb(65, 184, 131) !important;
+    }
+
+    #title{
+        font-weight: 450;
+    }
+
+    #actions{
+        float: right;
+        transition: .25s;
+    }
+
+    span {
+        margin: 0 .5rem
+    }
+
+    #toggle-ico-edit{
+        color: rgb(107, 98, 104) !important;
+        cursor: pointer;
+    }
+
+    #toggle-ico-del {
+        color: rgb(230, 36, 156) !important;
+        cursor: pointer;
+    }
+
+    #innerDetails {
+        border: 1px solid rgb(200, 201, 202);
+        border-radius: 2px;
+    }
+
+    #innerDetails #innerTxt{
+        margin-left: 1.2rem
+    }
